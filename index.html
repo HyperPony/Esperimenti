@@ -1,0 +1,57 @@
+<!--This is a comment-->
+<!--HTML is not case sensitive, whitespace is mostly irrelevant-->
+
+<!--
+Elements general syntaxes:
+<voidelement>
+<tag>Label</tag>
+<tag attribute="value">Label</tag>
+<tag attribute="value" attribute="value">Label</tag>
+
+Not all attributes are mandatory, global attributes are avaible for any element
+-->
+
+<!DOCTYPE html> <!--Document type and HTML version-->
+
+<!--html content-->
+<html lang="en"> <!--language attribute-->
+
+<head> <!--Non content part of the page-->
+    <title>Website</title> <!--Page title-->
+
+    <!--Page metadata-->
+    <meta charset="UTF-8"> <!--Character encoding specification-->
+</head>
+
+<body> <!--Page content-->
+    <h1>Heading 1</h1> <!--Heading of level 1-->
+
+    <p>Paragraph</p> <!--Paragraph-->
+
+    <p draggable=true> <!--Draggable global attribute-->
+        Draggable text that <br /> <!--Line break-->
+        interrupts
+    </p>
+
+    <ol><!--Ordered list-->
+        <li>Ordered item</li> <!--List item-->
+    </ol>
+
+    <ul> <!--Unordered list-->
+        <li>Unordered item</li>
+        <ol>
+            <li>Ordered, nested item</li> <!--Lists can be nested-->
+        </ol>
+    </ul>
+
+    <!--Images-->
+    <img src="https://picsum.photos/256" alt="testoalternativo" /> <!--Image source and alternative text attributes-->
+
+    <hr /> <!--Horizontal rule-->
+
+    <!--Anchors-->
+    <a href="https://www.website.com">Link to page</a> <!--Anchor's hypertext reference (link)-->
+
+</body>
+
+</html>
